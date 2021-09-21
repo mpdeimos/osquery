@@ -9,14 +9,14 @@
 
 #pragma once
 
-#include <sys/sysctl.h>
-
 #include <osquery/core/tables.h>
 
 namespace osquery {
 namespace tables {
 
 #define CTL_MAX_VALUE 128
+
+#define CTL_MAXNAME	12
 
 #ifndef CTL_DEBUG_MAXID
 #define CTL_DEBUG_MAXID (CTL_MAXNAME * 2)

@@ -79,11 +79,9 @@ function(setupBuildFlags)
       -Woverloaded-virtual
       -Wnon-virtual-dtor
       -Weffc++
-      -stdlib=libc++
     )
 
     set(posix_cxx_link_options
-      -stdlib=libc++
       -ldl
     )
 
@@ -131,7 +129,6 @@ function(setupBuildFlags)
       )
 
       set(linux_cxx_link_libraries
-        c++abi
         rt
         dl
       )
@@ -157,7 +154,6 @@ function(setupBuildFlags)
       )
 
       set(macos_cxx_link_options
-        -stdlib=libc++
         -lresolv
       )
 
@@ -166,7 +162,6 @@ function(setupBuildFlags)
         cups
         bsm
         xar
-        c++abi
         "-framework AppKit"
         "-framework Foundation"
         "-framework CoreServices"

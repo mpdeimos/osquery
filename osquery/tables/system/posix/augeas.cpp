@@ -35,7 +35,7 @@ FLAG(string,
 #else
 FLAG(string,
      augeas_lenses,
-     "/opt/osquery/share/osquery/lenses",
+     "/usr/share/osquery/lenses",
      "Directory that contains augeas lenses files");
 #endif
 

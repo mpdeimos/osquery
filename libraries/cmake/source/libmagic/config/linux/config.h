@@ -247,9 +247,6 @@
 /* Define to 1 if `vfork' works. */
 #define HAVE_WORKING_VFORK 1
 
-/* Define to 1 if you have the <xlocale.h> header file. */
-#define HAVE_XLOCALE_H 1
-
 /* Define to 1 if you have the <zlib.h> header file. */
 #define HAVE_ZLIB_H 1
 
