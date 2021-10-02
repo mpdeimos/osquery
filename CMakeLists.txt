@@ -114,6 +114,7 @@ function(importLibraries)
     "Linux,Darwin:popt"
     "Linux,Darwin,Windows:rapidjson"
     "Linux,Darwin,Windows:rocksdb"
+    "Linux,Darwin,Windows:snappy"
     "Linux,Darwin,Windows:sleuthkit"
     "Linux,Darwin:smartmontools"
     "Linux,Darwin,Windows:sqlite"

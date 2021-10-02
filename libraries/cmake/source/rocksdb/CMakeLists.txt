@@ -345,10 +345,12 @@ function(rocksdbMain)
 
     ROCKSDB_NO_DYNAMIC_EXTENSION
     ROCKSDB_SUPPORT_THREAD_LOCAL
+    SNAPPY
   )
 
   target_link_libraries(thirdparty_rocksdb PRIVATE
     thirdparty_cxx_settings
+    thirdparty_snappy
   )
 
   target_include_directories(thirdparty_rocksdb PRIVATE
